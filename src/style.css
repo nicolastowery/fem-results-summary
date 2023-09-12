@@ -1,0 +1,22 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* default is content-box which will cause padding to be added to the width, not inducted in */
+}
+
+button {
+  border: initial;
+  background-color: initial;
+  color: inherit;
+  font: inherit;
+  outline: none; /* make sure there is a visual indicator for focus state */
+}
+
+/* BASE STYLES */
+.app {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  height: 100dvh; /* viewport height */
+  width: 100dvw; /* viewport width */
+}
