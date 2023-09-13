@@ -146,9 +146,6 @@ button {
   height: 23px;
 }
 
-.category__name {
-}
-
 /* CATEGORY SCORE */
 .category-score {
   color: hsla(224, 30%, 27%, 50%);
@@ -200,7 +197,7 @@ button {
   }
 
   .overview-score {
-    width: 40%;
+    width: 35%;
     height: 100%;
     border-radius: 50%;
   }
